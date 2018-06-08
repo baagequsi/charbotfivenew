@@ -14,12 +14,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main2Activity extends AppCompatActivity {
-
     private List<Msg> list=new ArrayList<Msg>();
     private RecyclerView mains_recycle;
     private TextView mains_text;
     private Button mains_send;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

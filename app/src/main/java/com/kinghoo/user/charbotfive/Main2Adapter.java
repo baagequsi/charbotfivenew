@@ -41,7 +41,6 @@ public class Main2Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         Msg msg=list.get(position);
-        holder.leftlayout.setText("wang")
     }
 
     @Override
